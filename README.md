@@ -16,9 +16,13 @@ tsconfig.json
 
 ## 代码规范
 
-
 https://prettier.io/docs/en/install.html
 
 1. yarn add --dev --exact prettier
 2. echo {}> .prettierrc.json 新建配置文件
 3. 不需要格式化的文件
+
+## mock server
+
+安装 yarn add json-server -D
+配置 package.json "json-server":"json-server _server_/db.json --watch --port 3001"
